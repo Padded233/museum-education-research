@@ -1,0 +1,60 @@
+name: Research library and GitHub Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      collect:
+        description: Collect new unverified research candidates
+        type: boolean
+        default: false
+  schedule:
+    - cron: '17 1 * * 1'
+  issues:
+    types: [opened, edited]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: museum-research-pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.event_name != 'issues' || (github.event.issue.user.login == github.repository_owner && startsWith(github.event.issue.title, '[Research Sync]'))
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Apply owner-submitted research update
+        if: github.event_name == 'issues'
+        run: node apply-sync.mjs
+      - name: Collect unverified research candidates
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.collect)
+        run: node collect-research.mjs
+      - name: Commit data updates
+        if: github.event_name == 'issues' || github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.collect)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add workspace.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update museum education research records'
+            git push
+          fi
+      - name: Validate and prepare static site
+        run: node prepare-site.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - name: Deploy website
+        id: deploy
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,275 @@
+{
+  "records": [
+    {
+      "reading": true,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "",
+      "id": "glo-2026",
+      "title": "通用学习成果框架：2026年更新",
+      "subtitle": "Generic Learning Outcomes Framework",
+      "authors": "University of Leicester；Sam Bowen；Jenni Waugh（更新）；GEM（发布）",
+      "source": "GEM / University of Leicester",
+      "url": "https://gem.org.uk/resource/generic-learning-outcomes-framework/",
+      "date": "2026-07-09",
+      "ages": [
+        "6–8岁",
+        "8–10岁",
+        "10–12岁"
+      ],
+      "topics": [
+        "教育成效评价",
+        "动手实践"
+      ],
+      "type": "评价工具",
+      "strength": "框架参考",
+      "status": "已核验发布页",
+      "findings": "2026版由五类扩展为六类，新增感官参与；可用于活动规划和结构化观察。",
+      "advantages": "博物馆教育专业组织与大学共同更新，配套观察模板和案例。",
+      "limits": "框架用于组织证据，不能作为某一课程有效的因果证据。六类完整定义及模板尚待逐项核对。",
+      "advice": "项目转化建议：为拓印、黏土课程增加感官观察与学生解释记录；图册活动页同时留下作品和学习表达两类证据。",
+      "location": "GEM资源发布页：Date published；正文“six distinct categories”；Files for this Resource → GLOs Framework、Download templates for GLOs observation。",
+      "pending": "下载2026版框架，逐项核对六类定义与观察模板。",
+      "revision": 1
+    },
+    {
+      "reading": true,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "10.3389/fpsyg.2026.1836754",
+      "id": "heritage-2026",
+      "title": "博物馆学习如何影响小学生的文化遗产认知",
+      "subtitle": "Museum-based learning for cultural heritage: Examining primary students’ awareness and perceptions",
+      "authors": "Ahmet Akif Erbaş；Leyla Akcan；Emrullah Akcan",
+      "source": "Frontiers in Psychology, 17:1836754",
+      "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2026.1836754/full",
+      "date": "2026-05-21",
+      "ages": [
+        "8–10岁"
+      ],
+      "topics": [
+        "分龄课程",
+        "文化遗产",
+        "教育成效评价"
+      ],
+      "type": "混合方法研究",
+      "strength": "中等",
+      "status": "已核验全文",
+      "findings": "土耳其一所小学80名四年级学生参与六周课程；前后测与对照组比较显示文化遗产知识成绩改善，并以访谈分析学习体验。",
+      "advantages": "前后测、对照组与访谈相结合；报告测试工具可靠性。",
+      "limits": "单校研究，组别形成和推广范围需结合方法阅读；不直接代表中国乡村课堂。",
+      "advice": "项目转化建议：四年级设置“观察器物—推测用途—说明保护理由”连续任务；用同一组简短题做前后测，保存学生解释。",
+      "location": "原文 §2 Methods、§2.1 Study group、§2.2 Data collection；§3.1 / Table 3；§3.2学生访谈主题。",
+      "pending": "补充核对组别分配、课程每周活动与测试题内容。",
+      "revision": 1
+    },
+    {
+      "reading": false,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "10.1007/s10639-026-13959-5",
+      "id": "virtual-2026",
+      "title": "虚拟博物馆中的任务引导与即时反馈",
+      "subtitle": "Guidance in museum virtual tours: The impact of a gamified mobile guide on elementary students’ learning experiences",
+      "authors": "Türkan Karakuş Yılmaz；Zeynep Başcı Namlı；Elif Meral；Zeynep Avinç Kara",
+      "source": "Education and Information Technologies, 31:4585–4608",
+      "url": "https://link.springer.com/article/10.1007/s10639-026-13959-5",
+      "date": "2026-03-31",
+      "ages": [
+        "10–12岁"
+      ],
+      "topics": [
+        "分龄课程",
+        "数字学习",
+        "教育成效评价"
+      ],
+      "type": "对照实验",
+      "strength": "中等",
+      "status": "已核验全文",
+      "findings": "56名四至七年级学生比较两种导览；结构化移动导览组在知识、意义学习和满意度上更好，参与感与情感连接未见显著差异。",
+      "advantages": "报告任务对应关系、样本与测量，便于分析引导设计。",
+      "limits": "包含七年级；任务结构、媒介和反馈同时改变，不能单独归因于游戏化；分配方式措辞需复核。",
+      "advice": "项目转化建议：五六年级图册增加“找证据—作判断—核对解释”任务卡；将即时反馈做成纸质翻页答案，先小规模试用。",
+      "location": "Abstract；§3.2与Table 1任务示例；§3.3实施过程与抽样；讨论中的设计不平衡说明。",
+      "pending": "核对交替分配与随机分组表述；检查四至六年级是否有单独结果。",
+      "revision": 1
+    },
+    {
+      "reading": true,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "10.3389/feduc.2025.1679669",
+      "id": "stem-2025",
+      "title": "博物馆进校园：动手STEM与故事的对照评估",
+      "subtitle": "Testing the impact of two afterschool museum outreach interventions on elementary children’s STEM outcomes: hands-on STEM alone or with STEM stories",
+      "authors": "Tricia A. Zucker；Michael P. Mesa；Valerie P. Bambha；Dana M. DeMaster；Yusra Ahmed；Allison Master；Jason Hammond；Cheryl McCallum",
+      "source": "Frontiers in Education, 10:1679669",
+      "url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1679669/full",
+      "date": "2025-12-08",
+      "ages": [
+        "6–8岁",
+        "8–10岁",
+        "10–12岁"
+      ],
+      "topics": [
+        "动手实践",
+        "分龄课程",
+        "教育成效评价"
+      ],
+      "type": "随机对照研究",
+      "strength": "较强",
+      "status": "已核验全文",
+      "findings": "36个课后站点开展24周活动，最终分析541名K–5儿童。部分STEM态度指标改善，并非所有结果都改善。",
+      "advantages": "站点随机分配、常规活动对照、多层模型与分龄分析。",
+      "limits": "文化遗产教学属于跨领域转化。摘要与方法的随机样本人数、故事组显著性表述需对照主表复核。",
+      "advice": "项目转化建议：低年级先做材料与形状观察，高年级增加设计解释；连续多课时记录兴趣与知识。",
+      "location": "Materials and methods → Study design / Participants and procedures；Tables 1、3、4；Results；Discussion。",
+      "pending": "核对随机样本665与最终541的流程；核对摘要故事组p值与主表。",
+      "revision": 1
+    },
+    {
+      "reading": false,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "",
+      "id": "unesco-2025",
+      "title": "文化与艺术教育框架：实施指南",
+      "subtitle": "UNESCO Framework for Culture and Arts Education: Implementation guidance",
+      "authors": "UNESCO",
+      "source": "UNESCO",
+      "url": "https://www.unesco.org/en/articles/unesco-framework-culture-and-arts-education-implementation-guidance?hub=66813",
+      "date": "2025-09-29",
+      "ages": [
+        "6–8岁",
+        "8–10岁",
+        "10–12岁"
+      ],
+      "topics": [
+        "文化遗产",
+        "分龄课程"
+      ],
+      "type": "政策与报告",
+      "strength": "框架参考",
+      "status": "已核验发布页",
+      "findings": "指南推动文化艺术融入正式、非正式和非正规教育，强调包容与适应具体情境。发布页于2026年1月更新。",
+      "advantages": "国际组织官方指南，有多语种原文入口。",
+      "limits": "规范性指导；具体实施章节仍需获取原文定位。",
+      "advice": "项目转化建议：在河南文物课程中加入学生家乡物件与地方记忆；提供图像、口述和书写三种表达方式。",
+      "location": "UNESCO发布页“Transforming learning through culture and the arts”；Available in → English；出版年2025。",
+      "pending": "阅读原文，补充课程、教师协作与评价章节页码。",
+      "revision": 1
+    },
+    {
+      "reading": false,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "10.1080/2331186X.2026.2689828",
+      "id": "cop-2026",
+      "title": "馆校合作中的实践共同体：系统综述",
+      "subtitle": "Communities of practice in school-museum partnerships: a systematic review of teacher identity and boundary crossing",
+      "authors": "Khawla Alsadaa",
+      "source": "Cogent Education",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/2331186X.2026.2689828",
+      "date": "2026-08-07",
+      "ages": [
+        "6–8岁",
+        "8–10岁",
+        "10–12岁"
+      ],
+      "topics": [
+        "馆校合作",
+        "分龄课程"
+      ],
+      "type": "系统综述",
+      "strength": "待评估",
+      "status": "已核验摘要",
+      "findings": "摘要报告按PRISMA 2020分析12项实践共同体相关研究，讨论教师身份与跨机构协作。",
+      "advantages": "明确综述视角与纳入研究数。",
+      "limits": "当前全文访问受限；研究聚焦教师合作，儿童学习成效需另找证据。",
+      "advice": "项目转化建议：课前与小学教师共同核对目标、术语和活动时间，课后记录双方对学生理解情况的观察。",
+      "location": "出版商检索摘要；Article 2689828；Published online 07 Aug 2026；Abstract。",
+      "pending": "获取全文并核对检索式、纳入表和质量评价。",
+      "revision": 1
+    },
+    {
+      "reading": false,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "10.3102/0013189X13512675",
+      "id": "critical-2014",
+      "title": "艺术博物馆参访与批判性思考：经典实验",
+      "subtitle": "Learning to Think Critically: A Visual Art Experiment",
+      "authors": "Daniel H. Bowen；Jay P. Greene；Brian Kisida",
+      "source": "Educational Researcher, 43(1):37–44",
+      "url": "https://journals.sagepub.com/doi/10.3102/0013189X13512675",
+      "date": "2014-01-01",
+      "ages": [
+        "8–10岁",
+        "10–12岁"
+      ],
+      "topics": [
+        "教育成效评价",
+        "艺术观察"
+      ],
+      "type": "随机对照研究",
+      "strength": "较强",
+      "status": "已核验摘要",
+      "findings": "摘要报告3811名学生以抽签分配博物馆参访机会，参访组分析新画作时表现出更好的批判性思考。",
+      "advantages": "以随机分配增强因果推断；使用新画作评价。",
+      "limits": "包含小学以外学段；需核对小学子样本；与后续同一参访项目论文可能共用样本。",
+      "advice": "项目转化建议：用课堂未讲过的另一件器物图片做迁移任务，让学生说明“看到了什么、依据是什么”。",
+      "location": "Educational Researcher 43(1)，pp.37–44；出版商Abstract；2014-01-01首次在线发表。",
+      "pending": "核对全文评分规则；比对2016年Measuring Critical Thinking论文样本重叠。",
+      "revision": 1
+    },
+    {
+      "reading": false,
+      "applied": false,
+      "notes": "",
+      "checkedAt": "2026-11-10",
+      "doi": "",
+      "id": "moe-2020",
+      "title": "关于利用博物馆资源开展中小学教育教学的意见",
+      "subtitle": "文物博发〔2020〕30号",
+      "authors": "教育部；国家文物局",
+      "source": "教育部政府门户网站",
+      "url": "https://www.moe.gov.cn/srcsite/A06/s7053/202010/t20201020_495781.html",
+      "date": "2020-10-12",
+      "ages": [
+        "6–8岁",
+        "8–10岁",
+        "10–12岁"
+      ],
+      "topics": [
+        "馆校合作",
+        "分龄课程",
+        "文化遗产"
+      ],
+      "type": "政策与报告",
+      "strength": "框架参考",
+      "status": "待核验全文",
+      "findings": "官方检索信息提出健全馆校合作、推动博物馆资源与学校教学和综合实践结合。",
+      "advantages": "国内馆校合作政策的一手出处。",
+      "limits": "官网正文当前访问失败，应补存原文后核对具体条款。",
+      "advice": "项目转化建议：为“奇妙博物馆进校园”建立教师共同备课与反馈表，将图册内容映射到小学课程主题。",
+      "location": "教育部政府门户网站；生成日期2020-10-12；文物博发〔2020〕30号。正文条款待补。",
+      "pending": "重新访问官方原文，核对活动课程、流动教育和效果评价条款。",
+      "revision": 1
+    }
+  ],
+  "events": [],
+  "settings": {
+    "schedule": {
+      "enabled": false,
+      "label": "每周一北京时间上午，待GitHub任务启用"
+    }
+  },
+  "updatedAt": "2026-11-10T00:00:00Z"
+}
